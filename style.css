@@ -6,6 +6,17 @@ body {
     display: none;
 }
 
+#canvas {
+    float: left;
+}
+
 #winScreen {
     float: right;
+    position: relative;
+    left: -100px;
+}
+
+span {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
