@@ -8,7 +8,18 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
-    <canvas id="canvas" width="600" height="600"></canvas>
+    <div class="content-wrapper">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div id="winScreen" class="hidden">
+        <span id="winner"></span>
+        <form class="replayForm">
+            <label for="replayButton">Do you want to play again?</label>
+            <button class="replayButton" id="replayButton"></button>
+        </form>
+    </div>
+    
     
     <script src="canvas.js"></script> 
 </body>
